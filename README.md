@@ -63,19 +63,6 @@ After looking at the first visualization, I was able to see that Data Analysts h
 For the second visualization, we are able to see that many of the most in-demand skills are not the highest paying skills. This can be slightly misleading as people may think it would be more valuable to learn these very high paying skills. However, as seen in the aggregated dataframes, the counts for these skills are very low, meaning that there will be very few opportunities and that the salary may be misrepresented due to the smaller sample size. 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">

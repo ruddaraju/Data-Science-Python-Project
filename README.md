@@ -6,7 +6,7 @@ This is my data analytics project, where I analysed data related job postings an
   These are the questions that I intended to answer through data visualization.
   1) What are the most in demand skills for Data Analysts?
   2) How do the skills demanded change over the course of a year?
-  3) What are the median salaries for skills that are frequently demanded?
+  3) How do the salaries of different roles and different skills compare?
   4) What are the most optimal skills to learn to get a high paying role in a data role?
 
 # Tools Used
@@ -45,7 +45,107 @@ For this part, I specifically looked at Data analyst roles. I did so by filterin
 ![Visualization two](Visualizations/TopSkillsTrending.png)
 
 ## Results
-This visualization reiterates the fact that sql is very a very important and in-demand skill for data analysts as it is the highest line on the graph. Additionally, all the skills follow a similar trend over time where they slightly decrease or stay level throughout the year. This gives good insight for people looking for data analytics positions as it may be slightly more advantageous to apply earlier in the year. 
+This visualization reiterates the fact that sql is a very important and in-demand skill for data analysts as it is the highest line on the graph. Additionally, all the skills follow a similar trend over time where they slightly decrease or stay level throughout the year. This gives good insight for people looking for data analytics positions as it may be slightly more advantageous to apply earlier in the year. 
+
+
+# Part 3
+For this part, I created two visualizations. The first one compared six roles and the distributions of their yearly salaries. I did this through a boxplot graph. In this graph we are able to extract more information about the salaries for each role, including the median and more advanced distribution statistics such as the interquartile range and the lower and upper extremes. 
+
+For the second visualization, I looked once again only at Data analysts. From here, I compared the highest paying skills, and then I compared the most in-demand skills and their median salaries. I combined these two graphs into one by using matplotlib's subplots function. This allowed for a better comparison between all the different skills. ![Part 3 Code](ProjectSection/3_Salary_Analysis.ipynb)
+
+![Visualization three](Visualizations/SalaryDistributions.png)
+
+![Visualization four](Visualizations/AnalystsSkills.png)
+
+## Results
+After looking at the first visualization, I was able to see that Data Analysts have the lowest median salary out of the main data roles. However they have a smaller IQR and overall range than most of them, this can indicate that these roles are more consistent with their salaries. Additionally, Data Scientists have a very large spread, showing that their can be lots of varying factors determining the salary of a data scientist.
+
+For the second visualization, we are able to see that many of the most in-demand skills are not the highest paying skills. This can be slightly misleading as people may think it would be more valuable to learn these very high paying skills. However, as seen in the aggregated dataframes, the counts for these skills are very low, meaning that there will be very few opportunities and that the salary may be misrepresented due to the smaller sample size. 
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>count</th>
+      <th>median</th>
+    </tr>
+    <tr>
+      <th>job_skills</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>dplyr</th>
+      <td>2</td>
+      <td>196250.0</td>
+    </tr>
+    <tr>
+      <th>bitbucket</th>
+      <td>3</td>
+      <td>189000.0</td>
+    </tr>
+    <tr>
+      <th>gitlab</th>
+      <td>3</td>
+      <td>186000.0</td>
+    </tr>
+    <tr>
+      <th>solidity</th>
+      <td>1</td>
+      <td>179000.0</td>
+    </tr>
+    <tr>
+      <th>hugging face</th>
+      <td>1</td>
+      <td>175000.0</td>
+    </tr>
+    <tr>
+      <th>couchbase</th>
+      <td>1</td>
+      <td>160515.0</td>
+    </tr>
+    <tr>
+      <th>ansible</th>
+      <td>1</td>
+      <td>159640.0</td>
+    </tr>
+    <tr>
+      <th>mxnet</th>
+      <td>2</td>
+      <td>149000.0</td>
+    </tr>
+    <tr>
+      <th>cassandra</th>
+      <td>6</td>
+      <td>148250.0</td>
+    </tr>
+    <tr>
+      <th>vmware</th>
+      <td>1</td>
+      <td>147500.0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
 
 
 

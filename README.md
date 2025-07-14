@@ -56,16 +56,16 @@
 ### Part 1
 - Guards are more likely to contribute to the offensive side of the ball. This is seen in the larger salaries of players with higher offensive win shares. For example, a player with 3+ defensive win shares is more likely not to be paid as much as a guard with 3+ offensive win shares. This shows the league's desire for offensively talented guards. It is more common to see guards with high amounts of offensive win shares than defensive win shares. The overall conclusion from these two graphs is that for guards, defensive contributions are not as valued by teams. We can see that as the x values increase (Offensive metrics) there is a clear increase in salaries (darker points). This trend is not as clear for an increase in the y-axis (Defensive metrics). Additionally, there is less vertical spread, showing the trend for the league that guards are primarily valued for offensive contributions rather than defense possibly due to lack of size and interior presence.
 
-![BPM and WS vs Salary For Gaurds](Visualizations/Part_1/Gaurd_WS_BPM_Salary.png)
+   ![BPM and WS vs Salary For Gaurds](Visualizations/Part_1/Gaurd_WS_BPM_Salary.png)
 
 - A similar trend for Forwards follows from the trends of guards. Teams look for offensive stars and are willing to pay more for those who can bring offensive win shares and contribute heavily to the offensive side of the ball. Contrasting to the gaurds, there seems to be a larger spread of data, indicating that forwards are more versatile position, where some lean towards offense and some lean towards defense.
 
-![BPM and WS vs Salary For Forwards](Visualizations/Part_1/Forward_WS_BPM_Salary.png)
+   ![BPM and WS vs Salary For Forwards](Visualizations/Part_1/Forward_WS_BPM_Salary.png)
 
 
 - Finally, the graphs of Centers seem to be unique to the other positional groupings. There is a much heavier emphasis on defense. Defensive win shares seem to be paid more than offensive win shares for this position. Additionally, in the second graph, the points seem to be shifted up compared to the other positions. We can now see that as the y value increases (Defensive metrics) the salary increases. Additionally, many centers play power forward and many power forwards play center. This could account for some varying trends in the graphs of forwards and centers. This is because only one position is listed in the dataset, however, players accumulate stats playing different positions.
 
-![BPM and WS vs Salary For Centers](Visualizations/Part_1/Center_WS_BPM_Salary.png)
+   ![BPM and WS vs Salary For Centers](Visualizations/Part_1/Center_WS_BPM_Salary.png)
 
 - Overall, Guards are primarily paid for their offensive talents and facilitating an offense. Guards seem to be the opposite where they tend to be defensive anchors for their team while still presenting a strong interior presence on the offense. Forwards are the most versatile position, they tend to lean towards the offense side of the ball but can adapt based on what a team needs.
 
@@ -82,7 +82,7 @@
 
 - I first analyzed the salary distributions of each player type, highlighting the median salary for a reference point. The trends that followed were as expected. The "scorers" who were categorized as scoring more than 20 points and having a high usage rate had the highest median salary. Then followed the facilitators, who are less about scoring and rather creating offensive opportunities. Then comes the defenders and lastly specialized shooters. This trend makes sense as teams prioritize well rounded offensive players, where defense is less of a priority and there is a smaller market for specialized shooters.
 
-![Salary Distribution](Visualizations/Part_2/Salary_Distribution_PlayerType.png)
+   ![Salary Distribution](Visualizations/Part_2/Salary_Distribution_PlayerType.png)
 
 
 - I then analyzed the relationship between salary and each statistic for every player type. Here I only include the WS graphs as the trends are quite similar between WS, BPM, and PER. Shooters tend to have the smallest spread, low win shares, and a lower salary. This once again reiterates the lack of value in specialized players. Teams won't invest in these players, however, for a cheap contract, they could be quite effective off the bench
@@ -90,7 +90,7 @@
 - Scorers, Facilitators, and Defenders follow similar trends with minor differences. Scorers seem to be paid more with a larger clump of points further up. Facilitators seem well-compensated relative to their performance and win shares. Defenders seem to be undervalued as seen in the cluster that is lower in salary. The difference in win shares between defenders and scorers seems to be very minimal and yet there is still a large difference in salary between the two. GM's now may look to add defenders to their lineup, due to the lower cost and equal win shares.
 
 
-![WS vs Salary](Visualizations/Part_2/WS_Salary_PlayerClassification.png)
+   ![WS vs Salary](Visualizations/Part_2/WS_Salary_PlayerClassification.png)
 
   
 ### Part 3
@@ -99,7 +99,7 @@
   
 - I saw that it struggled in extrapolation as the actual salary increased. This could be because of the lack of player data as the salary increases. There is more spread in both graphs as the actual salary increases. The model is better at predicted the salary of players who are paid less and is better tuned for those predictions due to the salary distribution of the data.
 
-![Residual Plot](Visualizations/Residual.png)
+   ![Residual Plot](Visualizations/Residual.png)
 
 
 - With the predictions, I was able to determine that the following players are the 20 most overpaid and 20 most underpaid players respectively.

@@ -139,6 +139,13 @@ In the final part, I used the previous data of the most frequent skills for data
 
 This graph represents the relationship between demand and salary for each skill. Here we can see skills like sql and excel are in high demand while skills like oracle are in significantly lower demand. It also shows the salaries, and we notice that python is the highest paid skill. 
 
+# Part 5 (Power BI Dashboard)
+For the final part, I wanted to find a way to better summarize and encapsulate the data in its entirety. To do so, I utilized the Power BI dashboarding software to create an engaging, interactive visual dashboard. This dashboard shows similar visualizations that I created using matplotlib, pandas, and seaborn, but presented in a more organized way, ready to be showcased. Unfortunately, I do not have access due to the Power BI service and therfore can not share publiclly with users to ineract with my dashboard. I have included an image below to try and overcome this challenge. 
+
+![Dashboard](Visualizations/PowerBI_FinalDashboard.png)
+
+In this dashboard, I attempted to look at which skills were in demand, which positions required the most technical skills, and which skills would be the best paid. I added customization through slicers, filters and parameters, so that users could look at the comparisons between different metrics. For example, a user could look at the demand for skills in a specific country for a specific role. The user could also find median salaries based on certain conditions, such as Data Analyst positions that require both python and sql. The advantage of the dashboard over reporting python graphs is that it allows users to customize the visuals and easily allows for further insight between the relationships of vital categories, such as skills and job demand. 
+
 
 # What I learned/Challenges Faced
   - I was able to establish a strong foundation in python and python libaries including pandas, matplotlib, and seaborn. I was able to clean, filter, and manipulate data in order to tell a story.

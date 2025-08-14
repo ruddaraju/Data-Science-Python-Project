@@ -153,4 +153,3 @@ This graph represents the relationship between demand and salary for each skill.
 
 
 
-
